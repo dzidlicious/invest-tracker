@@ -27,7 +27,8 @@ $this->title = 'Login';
                     'class' => 'form-control form-control-user',
                     'placeholder' => 'Enter your username'
                 ]
-                ])->textInput(['autofocus' => true]) ?>
+                ]) ?>
+
 
             <?= $form->field($model, 'password',
                 ['inputOptions' => [
